@@ -1,0 +1,66 @@
+
+html {
+    height: 100%;
+}
+.main__body{
+    min-height: 100vh;
+    width: 100%;
+}
+.footer__main{
+    background-image: linear-gradient(to right, #031634,#031634,#036564);
+    height: 1fr;
+}
+.header__main{
+    background-image: linear-gradient(to right, #031634,#031634,#036564);
+    height: 1fr;
+}
+.car__img{
+    height: 1fr;
+    width: 100%;
+    object-fit: cover;
+}
+.mini__img{
+    border: solid 2px black;
+}
+.mini__img:hover{
+    transition: border-color 0.5s;
+    border: solid 4px #036564; 
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #031634;
+    /* background-image:repeating-linear-gradient(to right, #031634,#031634,#036564); */
+    border: black solid 1px;
+  }
+  .contacto__list{
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    list-style-type: none;
+    color: white;
+  }
+  .cover {
+    padding: 0 1.5rem;
+  }
+  .bg__image{
+    background-image: url('https://img.freepik.com/free-photo/agricultural-silos-building-exterior_146671-19102.jpg?w=1380&t=st=1661320340~exp=1661320940~hmac=7c183ef432c9a3654e3fad2a6aba1af4328d4190f410219e79bd47b0a6d1ccd7');
+    height: 82vh;
+  }
+  .mask{
+    background-color: rgba(0, 0, 0, 0.6)
+  }
+  .sobrenosotros__mask{
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .sobrenosotros__text{
+    color: rgb(167, 30, 30);
+  }
+ 
+  
