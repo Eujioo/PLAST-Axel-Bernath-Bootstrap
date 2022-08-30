@@ -8,16 +8,46 @@ html {
 }
 .footer__main{
     background-image: linear-gradient(to right, #031634,#031634,#036564);
-    height: 1fr;
+    height: 10vh;
+}
+.text__foot{
+  display: flex;
+  align-items: center;
+}
+.foot__links{
+  align-items: center;
 }
 .header__main{
     background-image: linear-gradient(to right, #031634,#031634,#036564);
-    height: 1fr;
+    height: 20vh;
+}
+.car__parent{
+  height: 70vh;
+  background-color: #031634;
 }
 .car__img{
-    height: 1fr;
+   max-height: 70vh;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
+  
+}
+.index__subtitle{
+  color: white;
+  position: absolute;
+  top: 55vh;
+  left:15vw ;
+  background-color: #031634;
+  border: #036564 solid 2px;
+  border-radius: 7px;
+  width: 160px;
+  text-align: center;
+}
+.index__map{
+  position: absolute;
+  top: 60vh;
+  width: 50vw;
+  max-width: 500px;
+  height: 30vh;
 }
 .mini__img{
     border: solid 2px black;
@@ -34,10 +64,11 @@ html {
     background-color: #031634;
     /* background-image:repeating-linear-gradient(to right, #031634,#031634,#036564); */
     border: black solid 1px;
+    /* border-radius: 80px; */
   }
   .contacto__list{
     display: flex;
-    height: 80vh;
+    height: 68vh;
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
@@ -49,18 +80,27 @@ html {
   }
   .bg__image{
     background-image: url('https://img.freepik.com/free-photo/agricultural-silos-building-exterior_146671-19102.jpg?w=1380&t=st=1661320340~exp=1661320940~hmac=7c183ef432c9a3654e3fad2a6aba1af4328d4190f410219e79bd47b0a6d1ccd7');
-    height: 82vh;
+    height: 70vh;
   }
   .mask{
     background-color: rgba(0, 0, 0, 0.6)
   }
   .sobrenosotros__mask{
-    height: 82vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
   }
   .sobrenosotros__text{
     color: rgb(167, 30, 30);
   }
- 
-  
+  @media screen and (min-width: 1200px){
+      .index__subtitle{
+      left: 150px;
+    }
+  }
+  @media screen and (max-width: 1200px){
+    .car__img{
+      height: 70vh;
+    
+  }
+  }
