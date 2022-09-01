@@ -9,10 +9,10 @@ html {
 .footer__main{
     background-image: linear-gradient(to right, #031634,#031634,#036564);
     height: 10vh;
+    align-items: center;
 }
 .text__foot{
   display: flex;
-  align-items: center;
 }
 .foot__links{
   align-items: center;
@@ -20,6 +20,7 @@ html {
 .header__main{
     background-image: linear-gradient(to right, #031634,#031634,#036564);
     height: 20vh;
+    min-height: 150px;
 }
 .car__parent{
   height: 70vh;
@@ -34,7 +35,7 @@ html {
 .index__subtitle{
   color: white;
   position: absolute;
-  top: 55vh;
+  top: 53vh;
   left:15vw ;
   background-color: #031634;
   border: #036564 solid 2px;
@@ -44,7 +45,8 @@ html {
 }
 .index__map{
   position: absolute;
-  top: 60vh;
+  top: 59vh;
+  left: 5px;
   width: 50vw;
   max-width: 500px;
   height: 30vh;
@@ -62,9 +64,8 @@ html {
     text-align: center;
     align-items: center;
     background-color: #031634;
-    /* background-image:repeating-linear-gradient(to right, #031634,#031634,#036564); */
     border: black solid 1px;
-    /* border-radius: 80px; */
+ 
   }
   .contacto__list{
     display: flex;
@@ -74,6 +75,7 @@ html {
     justify-content: space-around;
     list-style-type: none;
     color: white;
+  
   }
   .cover {
     padding: 0 1.5rem;
@@ -102,5 +104,15 @@ html {
     .car__img{
       height: 70vh;
     
+  }
+  @media screen and (max-width: 600px){
+    .index__subtitle{
+      left: 0;
+    }
+    .formulario{
+      height: 80vh;
+      justify-content: flex-end;
+      overflow: scroll;
+    }
   }
   }
