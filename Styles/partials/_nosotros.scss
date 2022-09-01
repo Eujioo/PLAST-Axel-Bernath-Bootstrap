@@ -1,0 +1,18 @@
+.cover {
+    padding: 0 1.5rem;
+  }
+  .bg__image{
+    background-image: url('https://img.freepik.com/free-photo/agricultural-silos-building-exterior_146671-19102.jpg?w=1380&t=st=1661320340~exp=1661320940~hmac=7c183ef432c9a3654e3fad2a6aba1af4328d4190f410219e79bd47b0a6d1ccd7');
+    height: 70vh;
+  }
+  .mask{
+    background-color: rgba(0, 0, 0, 0.6)
+  }
+  .sobrenosotros__mask{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .sobrenosotros__text{
+    color: rgb(167, 30, 30);
+  }

@@ -1,0 +1,7 @@
+.mini__img{
+    border: solid 2px black;
+}
+.mini__img:hover{
+    transition: border-color 0.5s;
+    border: solid 4px #036564; 
+}

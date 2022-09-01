@@ -1,0 +1,11 @@
+.footer__main{
+    background-image: map-get($gradient, colorGradient);
+    height: 10vh;
+    align-items: center;
+}
+.text__foot{
+  display: flex;
+}
+.foot__links{
+  align-items: center;
+}

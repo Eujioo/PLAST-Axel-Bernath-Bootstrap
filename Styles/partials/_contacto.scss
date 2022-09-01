@@ -1,0 +1,26 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #031634;
+    border: black solid 1px;
+ 
+  }
+  .contacto__list{
+    display: flex;
+    height: 68vh;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    list-style-type: none;
+    color: white;
+  
+  }
+  @media screen and (max-width: 600px){
+      .formulario{
+      height: 80vh;
+      justify-content: flex-end;
+      overflow: scroll;
+    }
+  }

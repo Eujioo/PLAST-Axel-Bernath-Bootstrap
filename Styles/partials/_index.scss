@@ -1,0 +1,44 @@
+.car__parent{
+    height: 70vh;
+    background-color: #031634;
+  }
+  .car__img{
+     max-height: 70vh;
+      width: 100%;
+      object-fit: contain;
+    
+  }
+  .index__subtitle{
+    color: white;
+    position: absolute;
+    top: 53vh;
+    left:15vw ;
+    background-color: #031634;
+    border: #036564 solid 2px;
+    border-radius: 7px;
+    width: 160px;
+    text-align: center;
+  }
+  .index__map{
+    position: absolute;
+    top: 59vh;
+    left: 5px;
+    width: 50vw;
+    max-width: 500px;
+    height: 30vh;
+  }
+  @media screen and (min-width: 1200px){
+    .index__subtitle{
+    left: 150px;
+  }
+}
+@media screen and (max-width: 1200px){
+  .car__img{
+    height: 70vh;
+  }
+}
+  @media screen and (max-width: 600px){
+    .index__subtitle{
+      left: 0;
+    }
+}
