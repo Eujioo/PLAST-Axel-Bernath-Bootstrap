@@ -1,3 +1,9 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
 .footer__main {
   background-image: linear-gradient(to right, #031634, #031634, #036564);
   height: 10vh;
@@ -51,28 +57,70 @@ html {
   text-align: center;
 }
 
-.index__map {
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+.index__title {
   position: absolute;
-  top: 59vh;
-  left: 5px;
-  width: 50vw;
-  max-width: 500px;
-  height: 30vh;
+  top: 0vh;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.336);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  text-decoration: none;
+}
+
+.index__title:hover {
+  color: white;
+}
+
+.index__bg {
+  background-color: black;
+}
+
+.title__img {
+  width: 100vw;
+  height: 25vh;
+}
+
+.index__nav {
+  width: 100vw;
+  top: 135px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.336);
+  height: 80vh;
+}
+
+.index__nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.index__links:hover {
+  transform: scale(1.5, 1.5);
 }
 
 @media screen and (min-width: 1200px) {
-  .index__subtitle {
-    left: 150px;
+  .index__nav {
+    height: 86vh;
+    max-height: 100%;
+  }
+  .index__row {
+    margin-top: 60px;
   }
 }
-@media screen and (max-width: 1200px) {
-  .car__img {
-    height: 70vh;
-  }
-}
-@media screen and (max-width: 600px) {
-  .index__subtitle {
-    left: 0;
+@media screen and (min-width: 768px) {
+  .index__nav {
+    height: 86vh;
+    max-height: 100%;
   }
 }
 .mini__img {
@@ -82,6 +130,10 @@ html {
 .mini__img:hover {
   transition: border-color 0.5s;
   border: solid 4px #036564;
+}
+
+.productos__text {
+  color: black;
 }
 
 .cover {
@@ -101,6 +153,9 @@ html {
   height: 70vh;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  text-align: center;
 }
 
 .sobrenosotros__text {
@@ -110,20 +165,22 @@ html {
 .formulario {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: flex-start;
   align-items: center;
+  text-align: center;
   background-color: #031634;
   border: black solid 1px;
 }
 
 .contacto__list {
   display: flex;
-  height: 68vh;
   flex-direction: column;
-  text-align: center;
   justify-content: space-around;
+  align-items: stretch;
+  text-align: center;
   list-style-type: none;
   color: white;
+  height: 68vh;
 }
 
 @media screen and (max-width: 600px) {

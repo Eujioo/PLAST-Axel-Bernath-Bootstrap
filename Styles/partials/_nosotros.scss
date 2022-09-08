@@ -10,8 +10,9 @@
   }
   .sobrenosotros__mask{
     height: 70vh;
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
+    @include flex ($direction:column);
   }
   .sobrenosotros__text{
     color: rgb(167, 30, 30);

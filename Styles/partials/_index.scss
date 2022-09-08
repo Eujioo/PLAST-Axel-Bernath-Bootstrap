@@ -19,26 +19,79 @@
     width: 160px;
     text-align: center;
   }
-  .index__map{
-    position: absolute;
-    top: 59vh;
-    left: 5px;
-    width: 50vw;
-    max-width: 500px;
-    height: 30vh;
+  // .index__map{
+  //   position: absolute;
+  //   top: 59vh;
+  //   left: 5px;
+  //   width: 50vw;
+  //   max-width: 500px;
+  //   height: 30vh;
+  // }
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.index__title{
+  position: absolute;
+  top: 0vh;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.336);
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  @include flex($justify: center, $align: center);
+  width: 100vw;
+  text-decoration: none;
+}
+.index__title:hover{
+  color: white;
+}
+.container {
+  // position: relative;
+  // text-align: center;
+  // color: white;
+  @extend %container;
+}
+.index__bg{
+  background-color: black;
+}
+.title__img{
+  width: 100vw;
+  height: 25vh;
+}
+.index__nav{
+  width: 100vw;
+  top: 135px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.336);
+  height: 80vh;
+}
+.index__nav a{
+  color: white;
+  text-decoration: none;
+  // height: 100%;
+}
+.index__links:hover{
+  transform: scale(1.5,1.5);
+ 
+}
+@media screen and (min-width: 1200px){
+  .index__nav{
+    height: 86vh;
+    max-height: 100%;
   }
-  @media screen and (min-width: 1200px){
-    .index__subtitle{
-    left: 150px;
+  .index__row{
+    margin-top: 60px;
   }
 }
-@media screen and (max-width: 1200px){
-  .car__img{
-    height: 70vh;
+@media screen and (min-width: 768px){
+  .index__nav{
+    height: 86vh;
+    max-height: 100%;
   }
-}
-  @media screen and (max-width: 600px){
-    .index__subtitle{
-      left: 0;
-    }
 }

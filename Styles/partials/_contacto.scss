@@ -1,21 +1,22 @@
 .formulario{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+    // display: flex;
+    // flex-direction: column;
+    // text-align: center;
+    // align-items: center;
+    @include flex($direction: column, $align: center);
     background-color: #031634;
     border: black solid 1px;
  
   }
   .contacto__list{
-    display: flex;
-    height: 68vh;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
+    // display: flex;
+    // flex-direction: column;
+    // text-align: center;
+    // justify-content: space-around;
+    @include flex($justify: space-around, $direction: column);
     list-style-type: none;
     color: white;
-  
+    height: 68vh;
   }
   @media screen and (max-width: 600px){
       .formulario{

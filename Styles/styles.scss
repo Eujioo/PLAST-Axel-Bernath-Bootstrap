@@ -1,1 +1,11 @@
-@import "./partials/maps" ,"./partials/footer" , "./partials/header" , "./partials/main", "./partials/index","./partials/productos","./partials/nosotros","./partials/galeria","./partials/contacto";
+@import "./partials/extends",
+"./partials/maps",
+"./partials/mixins",
+"./partials/footer",
+ "./partials/header",
+  "./partials/main",
+   "./partials/index",
+   "./partials/productos",
+   "./partials/nosotros",
+   "./partials/galeria",
+   "./partials/contacto";
