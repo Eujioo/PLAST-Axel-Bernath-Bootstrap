@@ -18,10 +18,20 @@
     color: white;
     height: 68vh;
   }
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 900px){
       .formulario{
       height: 80vh;
       justify-content: flex-end;
       overflow: scroll;
+    }
+  }
+  @media screen and (max-height: 500px){
+   
+    .formulario{
+      top: 500px;
+      height: 80vh;
+      justify-content: flex-end;
+      overflow: scroll;
+
     }
   }

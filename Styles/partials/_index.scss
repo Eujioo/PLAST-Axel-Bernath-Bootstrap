@@ -1,32 +1,4 @@
-.car__parent{
-    height: 70vh;
-    background-color: #031634;
-  }
-  .car__img{
-     max-height: 70vh;
-      width: 100%;
-      object-fit: contain;
-    
-  }
-  .index__subtitle{
-    color: white;
-    position: absolute;
-    top: 53vh;
-    left:15vw ;
-    background-color: #031634;
-    border: #036564 solid 2px;
-    border-radius: 7px;
-    width: 160px;
-    text-align: center;
-  }
-  // .index__map{
-  //   position: absolute;
-  //   top: 59vh;
-  //   left: 5px;
-  //   width: 50vw;
-  //   max-width: 500px;
-  //   height: 30vh;
-  // }
+
 .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -69,12 +41,12 @@
   top: 135px;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.336);
-  height: 80vh;
+  height: 80%;
 }
 .index__nav a{
   color: white;
   text-decoration: none;
-  // height: 100%;
+  height: 100%;
 }
 .index__links:hover{
   transform: scale(1.5,1.5);
@@ -88,10 +60,25 @@
   .index__row{
     margin-top: 60px;
   }
+  .index__nav{
+    overflow: hidden;
+  }
 }
 @media screen and (min-width: 768px){
   .index__nav{
-    height: 86vh;
+    // height: 86vh;
+    max-height: 100%;
+  }
+}
+@media screen and (max-height: 675px){
+  .index__map{
+    display: none;
+  }
+  .index__video{
+    display: none;
+  }
+  .index__nav{
+    height: 75vh;
     max-height: 100%;
   }
 }
