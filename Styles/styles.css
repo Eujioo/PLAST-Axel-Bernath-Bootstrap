@@ -179,6 +179,8 @@ html {
 
 @media screen and (max-height: 500px) {
   .formulario {
+    top: 0px;
+    height: 100%;
     justify-content: flex-end;
     overflow: scroll;
   }
