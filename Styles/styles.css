@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 .container {
   position: relative;
   text-align: center;
@@ -151,6 +152,7 @@ html {
 
 .sobrenosotros__text {
   color: white;
+  font-family: "Poiret One", cursive, helvetica;
 }
 
 .formulario {
@@ -164,6 +166,10 @@ html {
   height: 70vh;
   position: relative;
   top: 0px;
+}
+
+.contacto__input {
+  resize: none;
 }
 
 .contacto__list {

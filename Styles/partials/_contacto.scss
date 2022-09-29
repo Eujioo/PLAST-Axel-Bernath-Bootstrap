@@ -18,6 +18,9 @@
     // @include flex($direction: column, $align: center, $justify: space-around);
  
   }
+  .contacto__input{
+    resize: none;
+  }
   .contacto__list{
     // display: flex;
     // flex-direction: column;
