@@ -3,9 +3,19 @@
     // flex-direction: column;
     // text-align: center;
     // align-items: center;
-    @include flex($direction: column, $align: center);
+    // @include flex($direction: column, $align: center);
     background-color: #031634;
-    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
+    height: 70vh;
+    position: relative;
+    top: 0px;
+    // border: black solid 1px;
+    // @include flex($direction: column, $align: center, $justify: space-around);
  
   }
   .contacto__list{
@@ -18,18 +28,16 @@
     color: white;
     height: 68vh;
   }
-  @media screen and (max-width: 900px){
-      .formulario{
-      height: 80vh;
-      justify-content: flex-end;
-      overflow: scroll;
-    }
-  }
+  // @media screen and (max-width: 900px){
+  //     .formulario{
+  //     height: 80vh;
+  //     justify-content: flex-end;
+  //     overflow: scroll;
+  //   }
+  // }
   @media screen and (max-height: 500px){
    
     .formulario{
-      top: 500px;
-      height: 80vh;
       justify-content: flex-end;
       overflow: scroll;
 

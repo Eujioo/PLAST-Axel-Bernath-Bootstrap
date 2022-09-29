@@ -39,13 +39,13 @@ html {
   min-height: 350px;
   background: no-repeat center center scroll;
   background-size: cover;
+  background-color: black;
 }
 
 .index__title {
   position: absolute;
   top: 0vh;
   color: white;
-  background-color: rgba(0, 0, 0, 0.336);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -72,7 +72,6 @@ html {
   width: 100vw;
   top: 135px;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.336);
   height: 80%;
 }
 
@@ -155,13 +154,16 @@ html {
 }
 
 .formulario {
+  background-color: #031634;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  text-align: center;
-  background-color: #031634;
-  border: black solid 1px;
+  justify-content: space-around;
+  border-top: black solid 1px;
+  border-bottom: black solid 1px;
+  height: 70vh;
+  position: relative;
+  top: 0px;
 }
 
 .contacto__list {
@@ -175,17 +177,8 @@ html {
   height: 68vh;
 }
 
-@media screen and (max-width: 900px) {
-  .formulario {
-    height: 80vh;
-    justify-content: flex-end;
-    overflow: scroll;
-  }
-}
 @media screen and (max-height: 500px) {
   .formulario {
-    top: 500px;
-    height: 80vh;
     justify-content: flex-end;
     overflow: scroll;
   }
