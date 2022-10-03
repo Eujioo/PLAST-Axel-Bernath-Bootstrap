@@ -1,9 +1,5 @@
 .formulario{
-    // display: flex;
-    // flex-direction: column;
-    // text-align: center;
-    // align-items: center;
-    // @include flex($direction: column, $align: center);
+ 
     background-color: #031634;
     display: flex;
     flex-direction: column;
@@ -14,8 +10,7 @@
     height: 70vh;
     position: relative;
     top: 0px;
-    // border: black solid 1px;
-    // @include flex($direction: column, $align: center, $justify: space-around);
+
  
   }
   .contacto__input{
@@ -25,22 +20,12 @@
     text-align: center;
   }
   .contacto__list{
-    // display: flex;
-    // flex-direction: column;
-    // text-align: center;
-    // justify-content: space-around;
+
     @include flex($justify: space-around, $direction: column);
     list-style-type: none;
     color: white;
     height: 68vh;
   }
-  // @media screen and (max-width: 900px){
-  //     .formulario{
-  //     height: 80vh;
-  //     justify-content: flex-end;
-  //     overflow: scroll;
-  //   }
-  // }
   @media screen and (max-height: 500px){
    
     .formulario{

@@ -13,10 +13,6 @@
   position: absolute;
   top: 0vh;
   color: white;
-  // background-color: rgba(0, 0, 0, 0.336);
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
   @include flex($justify: center, $align: center);
   width: 100vw;
   text-decoration: none;
@@ -25,9 +21,7 @@
   color: white;
 }
 .container {
-  // position: relative;
-  // text-align: center;
-  // color: white;
+
   @extend %container;
 }
 .index__bg{
@@ -41,7 +35,6 @@
   width: 100vw;
   top: 135px;
   position: absolute;
-  // background-color: rgba(0, 0, 0, 0.336);
   height: 80%;
 }
 .index__nav a{
